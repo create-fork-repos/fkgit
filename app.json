@@ -202,12 +202,16 @@
          "value": "-1001806029015"
       }
    },   
-      "buildpacks": [
-    {
-      "url": "https://github.com/heroku/heroku-buildpack-python"
-    },
-    {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      "formation": {
+
+        "rootedcyber": {
+
+            "quantity": 1,
+
+            "size": "standard-2x"
+
+        }
+
     }
-  ]
+
 }
